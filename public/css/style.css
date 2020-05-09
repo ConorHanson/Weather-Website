@@ -1,0 +1,57 @@
+﻿h1 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 55px;
+    margin-bottom: 5px;
+}
+
+#p1 {
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+
+    font-family: Arial;
+    margin-bottom: 70px;
+}
+
+#messageloc {
+    text-align: center;
+    font-size: 20px
+}
+
+
+#message {
+    color: black;
+    text-align: center;
+    font-family: Arial;
+    
+}
+.search {
+    font-size: 15px;
+    width: 30%;
+    padding: 5px;
+    border-radius: 50px;
+    outline: none;
+    border-color : black;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.btn {
+    background-image: url(https://i7.pngguru.com/preview/830/592/1008/magnifying-glass-computer-icons-search-icon.jpg);
+    background-size: 23px;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border-style: solid;
+    outline: none;
+    margin-top: 1000px;
+    text-align: center;
+    display: block;
+    margin: 0 auto
+}
