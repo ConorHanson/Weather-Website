@@ -7,6 +7,13 @@
     margin-bottom: 5px;
 }
 
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQwET3bOYYvT2Gyf8IGTvkaaXZWUlulUZtX7rop1jlJ9D7up6gX&usqp=CAU');
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
 #p1 {
     margin-bottom: 20px;
     color: black;
