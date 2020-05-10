@@ -21,7 +21,7 @@ app.get('/weather', (req, res) => {
     }
     else {
     
-        const url2 = 'https://api.mapbox.com/geocoding/v5/mapbox.places/' + req.query.address + '.json?access_token=pk.eyJ1IjoiaGFuc29uYzQiLCJhIjoiY2s5cGxtanNuMGJ0ajNucDluNHJhdGZjZSJ9.wsOy6Iw_i_Znpzwhy9Fxzw&limit=1'
+        const url2 = 'https://api.mapbox.com/geocoding/v5/mapbox.places/' + encodeURIComponent(req.query.address) + '.json?access_token=pk.eyJ1IjoiaGFuc29uYzQiLCJhIjoiY2s5cGxtanNuMGJ0ajNucDluNHJhdGZjZSJ9.wsOy6Iw_i_Znpzwhy9Fxzw&limit=1'
 
         
         request({ url: url2, json: true }, (error, response) => {
